@@ -39,10 +39,21 @@ namespace KnjiznicaMajcaPustolovscina
             Obmocje = new Rectangle(x, y, velikost, velikost);
 
             // 🖼️ Tukaj lahko enkrat pozneje naložiš slike:
-            // slikeHoje = new Image[] {
-            //     Image.FromFile(\"walk1.png\"),
-            //     Image.FromFile(\"walk2.png\")
-            // };
+            slikeHoje = new Image[] {
+                 Image.FromFile("Hoja1.png"),
+                 Image.FromFile("Hoja2.png"),
+                 Image.FromFile("Hoja3.png"),
+                 Image.FromFile("Hoja4.png"),
+                 Image.FromFile("Hoja5.png"),
+                 Image.FromFile("Hoja6.png"),
+                 Image.FromFile("Hoja7.png"),
+                 Image.FromFile("Hoja8.png"),
+                 Image.FromFile("Hoja9.png"),
+                 Image.FromFile("Hoja10.png"),
+                 Image.FromFile("Hoja11.png"),
+                 Image.FromFile("Hoja12.png")
+
+             };
             //
             // slikaStoji = Image.FromFile(\"idle.png\");
         }
